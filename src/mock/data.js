@@ -38,9 +38,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Data Analyst Intern',
+    info: "About OCP Group : OCP is the largest phosphate producer in the world and a leading global fertilizer player, backed by almost a century of production history. OCP has exclusive access to the world's largest phosphate rock reserve base in Morocco .",
+    info2: "My missions during the internship : Improvement of the removal process at the Benguerir mine. Ensuring the continuation of production in complete safety, satisfying and arbitrating needs, decreasing and limiting expenses are questions that count in my subject. It is in this context that the present work aims to improve and optimize the activities of the mine clearance phase of the Benguerir mine through a critical analysis of field data. As part of the OCP group's strategy focused on the 3 axes; To increase capacity, reduce costs and improve flexibility, it was necessary to: - Carry out a study on the extraction line of the benguerir mine. - Submit to an analysis related to the loss of performance during the operation.",
     url: '',
     repo: '', // if no repo, the button will not show up
   },
