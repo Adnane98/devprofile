@@ -13,7 +13,7 @@ const Education = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth > 769) {
+    if (window.innerWidth > 569) {
       setIsDesktop(true);
       setIsMobile(false);
     } else {
