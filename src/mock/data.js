@@ -28,10 +28,11 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'fs.jpg',
+    title: 'Full Stack Developer',
+    info: 'Developping a hybrid mobile application for a restaurant based on their website to command and order delivries from home .',
+    info2: 'It was an intership of 3 months , i worked on this project from the beginning using Ionic , AngularJS and NodeJS ',
+    info3: 'I have done a big part of the specifications of the project and i learned how to set-up , troubleshoot and manage the application servers (API and JOBQS )',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -47,7 +48,7 @@ export const projectsData = [
     info : " As part of the OCP group's strategy focused on the 3 axes; To increase capacity, reduce costs and improve flexibility, it was necessary to: ",
     info : "- Carry out a study on the extraction line of the benguerir mine.",
     info : "- Submit to an analysis related to the loss of performance during the operation.",
-    url: '',
+    url: 'https://www.ocpgroup.ma/',
     repo: '', // if no repo, the button will not show up
   },
   {
