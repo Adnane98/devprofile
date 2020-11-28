@@ -27,8 +27,8 @@ const Education = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Education" />
-          {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+          {projects.map((education) => {
+            const { title, info, info2, url, repo, img, id } = education;
 
             return (
               <Row key={id}>
@@ -41,7 +41,7 @@ const Education = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Education Title'}</h3>
                       <div>
                         <p>
                           {info ||
