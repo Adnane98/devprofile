@@ -18,40 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Actuellement étudiant en 3éme année de cycle d ingenierie à l ESTIA (Ecole Supérieure de technologies industrielles avancées) en France, et en parallele je prépare mon master de science en systémes embarqués et robotique à luniversité de SALFORD Manchester ',
-  paragraphTwo: "Je suis à la recherche d'un stage de fin d'études en robotique / systems embarqués et intelligence artificielle",
-  paragraphThree: "Si mon profil vous interesse , je me tiens a votre entiere disposition pour toutes informations complémentaires",
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Currently studying in 3rd year of engineering cycle at ESTIA (Higher School of Advanced Industrial Technologies) in France, and at the same time I am preparing my master of science in embedded systems and robotics at the University of SALFORD Manchester ',
+  paragraphTwo: "I am looking for an end-of-studies internship in robotics / embedded systems and artificial intelligence",
+  paragraphThree: "If my profile interests you, I am at your entire disposal for any further information",
+  resume: '', // if no resume, the button will not show up
 };
 
-//Education data
-export const educationData = [
-  {
-    id: nanoid(),
-    img: 'fs.jpg',
-    title: 'Full Stack Developer',
-    info: 'Developping a hybrid mobile application for a restaurant based on their website to command and order delivries from home .',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Data Analyst Intern',
-    info: "About OCP Group : " ,
-    info2 : "OCP is the largest phosphate producer in the world and a leading global fertilizer player, backed by almost a century of production history. OCP has exclusive access to the world's largest phosphate rock reserve base in Morocco .",
-    url: 'https://www.ocpgroup.ma/',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: '', // if no repo, the button will not show up
-  },
-];
+
 
 // PROJECTS DATA
 export const projectsData = [
@@ -78,15 +51,6 @@ export const projectsData = [
     info7 : "- Carry out a study on the extraction line of the benguerir mine.",
     info8 : "- Submit to an analysis related to the loss of performance during the operation.",
     url: 'https://www.ocpgroup.ma/',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
     repo: '', // if no repo, the button will not show up
   },
 ];
