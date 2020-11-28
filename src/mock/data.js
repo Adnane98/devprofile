@@ -23,6 +23,33 @@ export const aboutData = {
   paragraphThree: "Si mon profil vous interesse , je me tiens a votre entiere disposition pour toutes informations complémentaires",
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
+export const educationData = [
+  {
+    id: nanoid(),
+    img: 'fs.jpg',
+    title: 'Full Stack Developer',
+    info: 'Developping a hybrid mobile application for a restaurant based on their website to command and order delivries from home .',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Data Analyst Intern',
+    info: "About OCP Group : " ,
+    info2 : "OCP is the largest phosphate producer in the world and a leading global fertilizer player, backed by almost a century of production history. OCP has exclusive access to the world's largest phosphate rock reserve base in Morocco .",
+    url: 'https://www.ocpgroup.ma/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+];
 
 // PROJECTS DATA
 export const projectsData = [
@@ -42,7 +69,7 @@ export const projectsData = [
     title: 'Data Analyst Intern',
     info: "About OCP Group : " ,
     info : "OCP is the largest phosphate producer in the world and a leading global fertilizer player, backed by almost a century of production history. OCP has exclusive access to the world's largest phosphate rock reserve base in Morocco .",
-    info2: "My missions during the internship : ",
+    info: "My missions during the internship : ",
     info : "Improvement of the removal process at the Benguerir mine",
     info : "Ensuring the continuation of production in complete safety, satisfying and arbitrating needs, decreasing and limiting expenses are questions that count in my subject. It is in this context that the present work aims to improve and optimize the activities of the mine clearance phase of the Benguerir mine through a critical analysis of field data.",
     info : " As part of the OCP group's strategy focused on the 3 axes; To increase capacity, reduce costs and improve flexibility, it was necessary to: ",
