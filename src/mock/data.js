@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hello, my name is',
-  name: 'Adnane SAIDII',
+  name: 'Adnane SAIDI',
   subtitle: 'I am an embedded systems engineer',
   cta: '',
 };
@@ -51,6 +51,14 @@ export const projectsData = [
     info7 : "- Carry out a study on the extraction line of the benguerir mine.",
     info8 : "- Submit to an analysis related to the loss of performance during the operation.",
     url: 'https://www.ocpgroup.ma/',
+    repo: '', // if no repo, the button will not show up
+  },{
+    id: nanoid(),
+    img: 'lauak.jpg',
+    title: 'PROJET DIGITAL COSTING_HASPARRENr',
+    info: "Création d'une plateforme web pour l'entreprise LAUAK pour lui permettre d’être compétitif sur le marché",
+    info2: ' ',
+    url: 'https://www.groupe-lauak.com/',
     repo: '', // if no repo, the button will not show up
   },
 ];
