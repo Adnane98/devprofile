@@ -38,9 +38,6 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Credit to {' '}
-            Adnane SAIDI
-          </a>
         </p>
 
         {isEnabled && <GithubButtons />}
